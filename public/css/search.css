@@ -1,0 +1,28 @@
+.container__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 125px);
+  top: 10px;
+}
+
+.button {
+  height: 30px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.button__icon {
+  width: 25px;
+}
+
+.input__button {
+  height: 28px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+}
